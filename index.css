@@ -1,6 +1,4 @@
 body{
-
-
  font-family: 'Happy Monkey', cursive;
  background: linear-gradient(#a2d2ff, pink);
 color:white
@@ -18,6 +16,8 @@ color:white
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 #bday-age{
@@ -123,4 +123,14 @@ a{
 }
 .gift-subHeader{
     margin-top: 3px;
+}
+
+@media(max-width:600px){
+    .header{
+       text-align: center;
+    }
+    .gift-section h2{
+        text-align: center;
+        padding: 6px;
+    }
 }
